@@ -2,7 +2,7 @@ import Image from 'next/image'
 import { siteConfig } from 'app/config'
 
 export function AuthorProfile() {
-  const { name, nickname, bio, avatar } = siteConfig.author
+  const { name, nickname, bio, avatar, test } = siteConfig.author
 
   return (
     <div className="mt-16 pt-8 border-t border-neutral-200 dark:border-neutral-800">
